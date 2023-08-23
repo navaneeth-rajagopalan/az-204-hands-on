@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/navaneeth/Documents/Azure/HandsOn/az-204-developing-solutions-for-microsoft-azure/work_with_cosmos/dotnet/PracticeCosmos.csproj": {}
+  },
+  "projects": {
+    "/Users/navaneeth/Documents/Azure/HandsOn/az-204-developing-solutions-for-microsoft-azure/work_with_cosmos/dotnet/PracticeCosmos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/navaneeth/Documents/Azure/HandsOn/az-204-developing-solutions-for-microsoft-azure/work_with_cosmos/dotnet/PracticeCosmos.csproj",
+        "projectName": "PracticeCosmos",
+        "projectPath": "/Users/navaneeth/Documents/Azure/HandsOn/az-204-developing-solutions-for-microsoft-azure/work_with_cosmos/dotnet/PracticeCosmos.csproj",
+        "packagesPath": "/Users/navaneeth/.nuget/packages/",
+        "outputPath": "/Users/navaneeth/Documents/Azure/HandsOn/az-204-developing-solutions-for-microsoft-azure/work_with_cosmos/dotnet/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/navaneeth/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.29.0, )"
+            },
+            "Microsoft.Azure.Management.CosmosDB.Fluent": {
+              "target": "Package",
+              "version": "[1.38.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
