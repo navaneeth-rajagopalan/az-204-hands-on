@@ -16,7 +16,7 @@ namespace PracticeCosmos
             //  b) Help keep your .NET work separate from your Python work, should you decide to do both.
 
             //Copy the primary connection string from the Cosmos DB account in the portal and paste it in place of the placeholder, below
-            string my_connection_string = "https://pluralsightlab-776-af3.documents.azure.com:443/";
+            string my_connection_string = "AccountEndpoint=https://pluralsightlab-776-af3.documents.azure.com:443/;AccountKey=VbR9wwYAmX1M0RqDPOvDnYXQ4qMoI9bYv33I0sjjMMPYyCcDIcmO5t4ibc6F5EfjxcktMTqUYrWFACDbhDCVEg==;";
 
             //Declare a CosmosClient, called myClient, using the connection string
             CosmosClient myClient = new CosmosClient(connectionString: my_connection_string);
